@@ -1,4 +1,4 @@
-This is a docker image containig a webpage served by nginx displaying multifractal cartoons following Mandelbrot's procedure.
+This is a docker image containig a webpage served by nginx displaying multifractal cartoons.
 
 The frontend uses openUI5 controls and the plotly library.
 
