@@ -1,11 +1,17 @@
-This is a docker image containig a webpage served by nginx displaying multifractal cartoons.
+### Multifractal Cartoons
+Here is a webpage implementing B. Mandelbrot's algorithm for multifractal cartoons.
 
-The frontend uses openUI5 controls and the plotly library.
+#### Run as a webpage
+In the root directory of this repository, run
 
-To run this container, execute
+    firefox index.html
 
-docker build . -t <SOME_TAG>
-docker run --name <SOME_NAME> -d -p 8080:80 <SOME_TAG>
+#### Run as docker container
+Run
+
+
+    docker build . -t <SOME_TAG>
+    docker run --name <SOME_NAME> -d -p 8080:80 <SOME_TAG>
 
 in the directory where this README.md file is located. Note that suitable values for <SOME_TAG> and <SOME_NAME> have to be substituted.
 
